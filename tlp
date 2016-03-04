@@ -32,8 +32,6 @@ MAX_LOST_WORK_SECS_ON_BAT=60
 #   You *must* disable your distribution's governor settings or conflicts will
 #   occur. ondemand is sufficient for *almost all* workloads, you should know
 #   what you're doing!
-#CPU_SCALING_GOVERNOR_ON_AC=ondemand
-#CPU_SCALING_GOVERNOR_ON_BAT=ondemand
 CPU_SCALING_GOVERNOR_ON_AC=performance
 CPU_SCALING_GOVERNOR_ON_BAT=powersave
 
@@ -59,8 +57,6 @@ CPU_SCALING_GOVERNOR_ON_BAT=powersave
 # Important:
 # - This may conflict with your distribution's governor settings
 # - A value of 1 does *not* activate boosting, it just allows it
-#CPU_BOOST_ON_AC=1
-#CPU_BOOST_ON_BAT=0
 CPU_BOOST_ON_AC=1
 CPU_BOOST_ON_BAT=0
 
