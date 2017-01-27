@@ -5,7 +5,7 @@ Section: misc
 Priority: optional
 # Homepage: <enter URL here; no default>
 Standards-Version: 3.9.2
-
+Architecture: all
 Package: power-management-dep
 Version: 1.0
 Maintainer: Craig Hesling <craig@hesling.com>
