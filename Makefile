@@ -20,7 +20,7 @@ PKG_PWR_MAN_DEP_FILE    = $(PKG_PWR_MAN_DEP_NAME)_$(PKG_PWR_MAN_DEP_VER)_$(PKG_P
 
 all: firmware-iwlwifi-8260 power-management-dep
 
-# This virtual targets depend on the package file name, which in turn are
+# These virtual targets depend on the package file name, which in turn are
 # composed of the content of the control files. Therefore, nothing will
 # be made unless the version or arch changes in the control files.
 
