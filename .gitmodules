@@ -1,0 +1,3 @@
+[submodule "linux-firmware"]
+	path = linux-firmware
+	url = https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware.git

@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+dpkg-divert --package firmware-iwlwifi-8260 --rename --remove /lib/firmware/iwlwifi-8000C-21.ucode
+dpkg-divert --package firmware-iwlwifi-8260 --rename --remove /lib/firmware/iwlwifi-8000C-22.ucode
+dpkg-divert --package firmware-iwlwifi-8260 --rename --remove /lib/firmware/iwlwifi-8000C-27.ucode
+
+exit 0

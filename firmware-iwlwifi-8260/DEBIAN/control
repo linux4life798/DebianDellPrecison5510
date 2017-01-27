@@ -1,0 +1,14 @@
+Package: firmware-iwlwifi-8260
+Version: 1.0
+Architecture: all
+Maintainer: Craig Hesling <craig@hesling.com>
+Installed-Size: 38
+Suggests: initramfs-tools
+Section: non-free/kernel
+Priority: optional
+Description: Replaces the binary firmware for the Intel 8260 wireless card
+ This package contains the binary firmware for the Intel 8260 wireless cards
+ supported by the iwlegacy/iwl3945 and iwlwifi/iwlagn drivers.
+ .
+ This package will dpkg-divert ucode files from other packages that collide.
+Homepage: http://git.kernel.org/cgit/linux/kernel/git/iwlwifi/linux-firmware.git/
