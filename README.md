@@ -37,3 +37,4 @@ The "tlp" file is the /etc/default/tlp file I currently use.
   ```bash
   sudo dpkg -i builds/firmware-iwlwifi-8260_1.0_all.deb
   ```
+* Enabled /etc/fwupd/remotes.d/lvfs-testing.conf
