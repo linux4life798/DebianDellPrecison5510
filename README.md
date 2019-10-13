@@ -33,8 +33,12 @@ The "tlp" file is the /etc/default/tlp file I currently use.
   You can use my `tlp` config file in this repository.
   Overwrite `/etc/default/tlp` with the `tlp` file in the repository.
 
+# Other Setup #
+
 * Install latest wifi chipset firmware `firmware-iwlwifi-8260_1.0_all.deb`
   ```bash
   sudo dpkg -i builds/firmware-iwlwifi-8260_1.0_all.deb
   ```
-* Enabled /etc/fwupd/remotes.d/lvfs-testing.conf
+* Enabled `/etc/fwupd/remotes.d/lvfs-testing.conf`
+
+* Change GRUB resolution to `1920x1440`. See [grub](grub) as a reference.
