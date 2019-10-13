@@ -41,4 +41,5 @@ The "tlp" file is the /etc/default/tlp file I currently use.
   ```
 * Enabled `/etc/fwupd/remotes.d/lvfs-testing.conf`
 
-* Change GRUB resolution to `1920x1440`. See [grub](grub) as a reference.
+* Change GRUB resolution to `1920x1440` in `/etc/default/grub`.
+  See [grub](grub) as a reference.
